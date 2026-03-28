@@ -3,7 +3,7 @@
 using namespace std;
 
 namespace hello_world {
-
-string hello() { return "Goodbye, Mars!"; }
-
+    std::string hello() {
+        return "Hello, World!";
+    }
 }  // namespace hello_world
